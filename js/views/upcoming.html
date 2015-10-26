@@ -10,7 +10,7 @@
 <hr>
 
 <div class="movie" ng-repeat="movie in movies">
-  <a href="#/movies/{{$index}}">
+  <a href="#/movies/upcoming/{{$index}}">
     <span class="title">{{$index + 1 }}.  {{ movie.title }}</span>
     <span class="subject">Average Vote Rating: {{ movie.vote_average }}</span><span class="date">{{ movie.release_date | date }}</span>
   </a>
