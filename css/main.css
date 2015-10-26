@@ -169,3 +169,7 @@ a.back:hover {
 .pink-font {
   color: #EB1690;
 }
+
+.no-decoration:hover{
+  text-decoration: none;
+}
